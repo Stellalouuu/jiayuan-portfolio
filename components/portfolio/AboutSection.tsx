@@ -40,10 +40,10 @@ export function AboutSection() {
   return <section id="about" className="section-shell section-block about-section" aria-labelledby="about-title">
     <div className="section-heading"><div><p className="section-index">03 / 03</p><h2 id="about-title">关于我</h2></div></div>
     <div className="about-layout"><div className="about-copy"><p>我本科就读于南方科技大学通信工程专业，现在在新加坡国立大学攻读科技与创新管理硕士。</p><p>工程学习让我习惯理解系统是如何工作的，而在 WPS AI 和飞猪的产品经历，让我开始更关注另一个问题：</p><blockquote>“一项技术能力，怎样才能真正变成用户愿意使用、业务能够规模化落地的产品？”</blockquote></div><div className="strength-list">{strengths.map((strength) => <article className="strength-item" key={strength.number}><span>{strength.number}</span><div><h3>{strength.title}</h3><p>{strength.text}</p></div></article>)}</div></div>
-    <div className="about-detail-heading"><p className="section-index">教育背景</p><h3>教育背景</h3></div>
+    <div className="about-detail-heading"><h3>教育背景</h3></div>
     <div className="education-list">{education.map((item) => <article className="education-item" key={item.number}><div className="education-meta"><span>{item.number}</span><time>{item.period}</time></div><div className="education-main"><h3>{item.school}</h3><p className="education-english">{item.english}</p><p className="education-degree">{item.degree}</p><p className="education-context">{item.context}</p></div><div className="education-secondary"><div><span>核心课程</span><p>{item.courses.join(" · ")}</p></div><div><span>荣誉</span><ul>{item.honors.map((honor) => <li className={honor.includes("校级优秀毕业生") ? "education-honor-primary" : ""} key={honor}>{honor}</li>)}</ul></div></div></article>)}</div>
-    <div className="about-detail-heading about-capability-heading"><p className="section-index">专业能力</p><h3>专业能力</h3></div>
+    <div className="about-detail-heading about-capability-heading"><h3>专业能力</h3></div>
     <div className="professional-grid">{professionalCapabilities.map((group) => <article key={group.title}><h3>{group.title}</h3><div>{group.items.map((item) => <span key={item}>{item}</span>)}</div></article>)}</div>
-    <div className="language-row"><div><p className="section-index">语言能力</p><h3>语言能力</h3></div><div><strong>英语</strong><span>IELTS 7.5</span><span>CET-6 595</span></div></div>
+    <div className="language-row"><div><h3>语言能力</h3></div><div><strong>英语</strong><span>IELTS 7.5</span><span>CET-6 595</span></div></div>
   </section>;
 }
