@@ -8,9 +8,8 @@
 
 我关注复杂技术如何转化为真正可用、可规模化的产品体验。
 
-[在线作品集](#在线作品集) · [GitHub](https://github.com/Stellalouuu/jiayuan-portfolio)
+[在线作品集](https://jiayuan-portfolio.vercel.app/) · [GitHub](https://github.com/Stellalouuu/jiayuan-portfolio)
 
-在线作品集：部署后更新
 
 ## 关于这个 Portfolio
 
