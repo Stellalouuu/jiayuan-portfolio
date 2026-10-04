@@ -12,6 +12,19 @@ export type ProductProject = {
 export const productProjects: ProductProject[] = [
   {
     number: "01",
+    eyebrow: "个人项目 · 2026.10",
+    title: "JobPilot AI｜AI 秋招求职管理 Agent",
+    description: "针对秋招期间招聘邮件分散、面试与测评节点易遗漏的问题，设计并开发 AI 求职管理 Agent。通过 IMAP 自动读取招聘邮件，结合本地预筛选与 Gemini 将非结构化邮件转换为结构化 Job Event，实现招聘事项识别、求职状态管理、Deadline 倒计时、逾期提醒及 Google Calendar 日程同步。",
+    highlights: ["Agent Workflow", "Privacy-aware Demo"],
+    tags: ["Next.js", "Gemini", "AI Agent", "IMAP"],
+    links: [
+      { label: "在线体验", href: "https://jobpilot-ai-agent-gilt.vercel.app/", external: true },
+      { label: "GitHub", href: "https://github.com/Stellalouuu/Jobpilot-AI-Agent", external: true },
+      { label: "项目详情", href: "/work/jobpilot-ai" },
+    ],
+  },
+  {
+    number: "02",
     eyebrow: "阿里巴巴 · 飞猪",
     title: "AI 内容智能生产平台",
     description: "从酒店主图 AIGC 自动化生产，逐步升级为支持多渠道的 AI 内容生产体系。",
@@ -24,16 +37,16 @@ export const productProjects: ProductProject[] = [
     links: [{ label: "查看项目", href: "/work/fliggy-ai-content" }],
   },
   {
-    number: "02",
+    number: "03",
     eyebrow: "WPS AI",
-    title: "让 AI 生成的表格真正变得可用。",
+    title: "AI Copilot表格输出优化",
     description: "围绕 AI 表格输出的预览与分享体验，重新设计从「生成结果」到「真正可用」的最后一步。",
     highlights: ["动态列宽适配", "关键行冻结", "一键复制 PNG", "智能排版"],
     tags: ["AI 产品", "用户体验", "办公软件"],
     links: [{ label: "查看项目", href: "/work/wps-copilot-table" }],
   },
   {
-    number: "03",
+    number: "04",
     eyebrow: "个人项目",
     title: "FlowDay",
     description: "从一个简单的日程工具，逐步迭代为连接「计划、行动与回顾」的 AI 个人时间系统。",
@@ -41,6 +54,7 @@ export const productProjects: ProductProject[] = [
     tags: ["AI 产品", "0→1", "Vibe Coding", "交互原型"],
     links: [
       { label: "在线体验", href: "https://flowday-pi.vercel.app/app?demo=true", external: true },
+      { label: "GitHub", href: "https://github.com/Stellalouuu/flowday", external: true },
       { label: "项目故事", href: "https://flowday-pi.vercel.app/case-study", external: true },
     ],
   },

@@ -21,6 +21,7 @@
 
 - 阿里巴巴 · 飞猪 AI 内容智能生产平台
 - WPS Copilot 表格输出体验优化
+- JobPilot AI 秋招求职管理 Agent
 - FlowDay AI 时间管理与个人成长记录产品
 
 ### 工程与科研
