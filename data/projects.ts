@@ -13,19 +13,6 @@ export const productProjects: ProductProject[] = [
   {
     number: "01",
     eyebrow: "个人项目 · 2026.10",
-    title: "JobPilot AI｜AI 秋招求职管理 Agent",
-    description: "针对秋招期间招聘邮件分散、面试与测评节点易遗漏的问题，设计并开发 AI 求职管理 Agent。通过 IMAP 自动读取招聘邮件，结合本地预筛选与 Gemini 将非结构化邮件转换为结构化 Job Event，实现招聘事项识别、求职状态管理、Deadline 倒计时、逾期提醒及 Google Calendar 日程同步。",
-    highlights: ["Agent Workflow", "Privacy-aware Demo"],
-    tags: ["Next.js", "Gemini", "AI Agent", "IMAP"],
-    links: [
-      { label: "在线体验", href: "https://jobpilot-ai-agent-gilt.vercel.app/", external: true },
-      { label: "GitHub", href: "https://github.com/Stellalouuu/Jobpilot-AI-Agent", external: true },
-      { label: "项目详情", href: "/work/jobpilot-ai" },
-    ],
-  },
-  {
-    number: "02",
-    eyebrow: "个人项目 · 2026.10",
     title: "EchoHire｜AI 招聘反馈分析 Agent",
     description: "独立设计并开发面向企业招聘场景的 AI Agent 高保真原型，将岗位要求、候选人简历与面试记录关联，完成事实证据分析、岗位匹配判断、信息缺口识别及反馈报告整理，并通过人工审核形成可追溯的反馈闭环。",
     highlights: ["让面试反馈从主观描述走向证据驱动的岗位匹配分析。"],
@@ -35,6 +22,19 @@ export const productProjects: ProductProject[] = [
       { label: "GitHub", href: "https://github.com/Stellalouuu/echohire", external: true },
       { label: "产品介绍 PDF", href: "/documents/echohire-product-introduction.pdf", external: true },
       { label: "项目详情", href: "/work/echohire" },
+    ],
+  },
+  {
+    number: "02",
+    eyebrow: "个人项目 · 2026.10",
+    title: "JobPilot AI｜AI 秋招求职管理 Agent",
+    description: "针对秋招期间招聘邮件分散、面试与测评节点易遗漏的问题，设计并开发 AI 求职管理 Agent。通过 IMAP 自动读取招聘邮件，结合本地预筛选与 Gemini 将非结构化邮件转换为结构化 Job Event，实现招聘事项识别、求职状态管理、Deadline 倒计时、逾期提醒及 Google Calendar 日程同步。",
+    highlights: ["Agent Workflow", "Privacy-aware Demo"],
+    tags: ["Next.js", "Gemini", "AI Agent", "IMAP"],
+    links: [
+      { label: "在线体验", href: "https://jobpilot-ai-agent-gilt.vercel.app/", external: true },
+      { label: "GitHub", href: "https://github.com/Stellalouuu/Jobpilot-AI-Agent", external: true },
+      { label: "项目详情", href: "/work/jobpilot-ai" },
     ],
   },
   {
