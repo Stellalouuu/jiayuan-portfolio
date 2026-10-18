@@ -25,6 +25,18 @@ export const productProjects: ProductProject[] = [
   },
   {
     number: "02",
+    eyebrow: "个人项目 · 2026.10",
+    title: "EchoHire｜AI 招聘反馈分析 Agent",
+    description: "独立设计并开发面向企业招聘场景的 AI Agent 高保真原型，将岗位要求、候选人简历与面试记录关联，完成事实证据分析、岗位匹配判断、信息缺口识别及反馈报告整理，并通过人工审核形成可追溯的反馈闭环。",
+    highlights: ["让面试反馈从主观描述走向证据驱动的岗位匹配分析。"],
+    tags: ["AI Agent", "产品设计", "Next.js", "Vibe Coding"],
+    links: [
+      { label: "在线体验", href: "https://echohire-xi.vercel.app/", external: true },
+      { label: "项目详情", href: "/work/echohire" },
+    ],
+  },
+  {
+    number: "03",
     eyebrow: "阿里巴巴 · 飞猪",
     title: "AI 内容智能生产平台",
     description: "从酒店主图 AIGC 自动化生产，逐步升级为支持多渠道的 AI 内容生产体系。",
@@ -37,7 +49,7 @@ export const productProjects: ProductProject[] = [
     links: [{ label: "查看项目", href: "/work/fliggy-ai-content" }],
   },
   {
-    number: "03",
+    number: "04",
     eyebrow: "WPS AI",
     title: "AI Copilot表格输出优化",
     description: "围绕 AI 表格输出的预览与分享体验，重新设计从「生成结果」到「真正可用」的最后一步。",
@@ -46,7 +58,7 @@ export const productProjects: ProductProject[] = [
     links: [{ label: "查看项目", href: "/work/wps-copilot-table" }],
   },
   {
-    number: "04",
+    number: "05",
     eyebrow: "个人项目",
     title: "FlowDay",
     description: "从一个简单的日程工具，逐步迭代为连接「计划、行动与回顾」的 AI 个人时间系统。",
