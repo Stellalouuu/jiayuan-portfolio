@@ -32,6 +32,8 @@ export const productProjects: ProductProject[] = [
     tags: ["AI Agent", "产品设计", "Next.js", "Vibe Coding"],
     links: [
       { label: "在线体验", href: "https://echohire-xi.vercel.app/", external: true },
+      { label: "GitHub", href: "https://github.com/Stellalouuu/echohire", external: true },
+      { label: "产品介绍 PDF", href: "/documents/echohire-product-introduction.pdf", external: true },
       { label: "项目详情", href: "/work/echohire" },
     ],
   },
