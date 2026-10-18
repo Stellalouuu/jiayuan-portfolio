@@ -75,8 +75,11 @@ export function EchohireCaseStudy() {
 
     <section className="wps-section wps-shell">
       <Heading number="06" title="在线体验" description="体验 EchoHire 的招聘反馈分析与人工确认流程。" />
-      <div className="hero-actions">
+      <div className="hero-actions echohire-actions">
         <a className="button button-dark" href="https://echohire-xi.vercel.app/" target="_blank" rel="noopener noreferrer">在线体验 EchoHire <span aria-hidden="true">↗</span></a>
+        <a className="button button-line" href="https://github.com/Stellalouuu/echohire" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        <a className="button button-line" href="/documents/echohire-product-introduction.pdf" target="_blank" rel="noopener noreferrer">产品介绍 PDF <span aria-hidden="true">↗</span></a>
+        <Link className="button button-line" href="/work/echohire">项目详情 <span aria-hidden="true">↗</span></Link>
       </div>
     </section>
 

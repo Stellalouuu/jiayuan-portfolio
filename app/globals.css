@@ -176,6 +176,7 @@ h1, h2, h3, h4, p { margin-top: 0; }
 h1 { max-width: 850px; margin-bottom: 33px; font-size: clamp(64px, 6vw, 76px); font-weight: 600; line-height: 1.1; letter-spacing: -.04em; }
 .hero-summary { max-width: 720px; color: var(--muted); font-size: 19px; line-height: 1.7; }
 .hero-actions { display: flex; gap: 10px; margin-top: 40px; }
+.echohire-actions { flex-wrap: wrap; }
 .button { display: inline-flex; align-items: center; gap: 18px; min-height: 46px; padding: 0 17px; font-family: Arial, sans-serif; font-size: 12px; }
 .button-dark { background: var(--ink); color: var(--paper); }
 .button-line { border: 1px solid var(--line); }
